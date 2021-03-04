@@ -1,8 +1,8 @@
-name: Windows tmate
+name: MacOS tmate
 on: [push]
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
     - name: Setup tmate session
